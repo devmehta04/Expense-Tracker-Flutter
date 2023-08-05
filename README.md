@@ -1,16 +1,30 @@
-# cashmap
+# Basic Expense Tracker
 
-A new Flutter project.
+This is a simple mobile expense tracker made using Flutter. It allows users to add, edit, and delete their expenses, as well as view a summary of their expenses.
 
-## Getting Started
+## Requirements
 
-This project is a starting point for a Flutter application.
+To run this expense tracker, you will need:
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK installed on your machine
+- Android Studio or Xcode installed for Android and iOS development respectively
+- A mobile device or emulator to run the app
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Installation
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone this repository to your machine.
+2. Open a terminal and navigate to the project directory.
+3. Run `flutter pub get` to install the project dependencies.
+4. Connect your mobile device or start an emulator.
+5. Run `flutter run` to start the app.
+
+## Usage
+
+To use the expense tracker, follow these steps:
+
+1. Open the app on your mobile device or emulator.
+2. Click the "Add Expense" button to add a new expense.
+3. Fill in the expense details and click "Save".
+4. To edit an existing expense, long press on the expense item and click "Edit".
+5. To delete an expense, long press on the expense item and click "Delete".
+6. To view a summary of your expenses, click the "Summary" button.
